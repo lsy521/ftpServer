@@ -26,6 +26,7 @@ import java.net.Socket;
 import java.net.SocketAddress;
 import java.net.UnknownHostException;
 
+import javax.net.ssl.SSLContext;
 import javax.net.ssl.SSLSocket;
 import javax.net.ssl.SSLSocketFactory;
 
@@ -55,30 +56,30 @@ public class IODataConnectionFactory implements ServerDataConnectionFactory {
 
     private Socket dataSoc;
 
-    ServerSocket servSoc;
+    private ServerSocket servSoc;
 
-    InetAddress address;
+    private InetAddress address;
 
-    int port = 0;
+    private int port = 0;
 
-    long requestTime = 0L;
+    private long requestTime = 0L;
 
-    boolean passive = false;
+    private boolean passive = false;
 
-    boolean secure = false;
+    private boolean secure = false;
 
     private boolean isZip = false;
 
-    InetAddress serverControlAddress;
+    private InetAddress serverControlAddress;
 
-    FtpIoSession session;
+    private FtpIoSession session;
 
     public IODataConnectionFactory(final FtpServerContext serverContext,
             final FtpIoSession session) {
         this.session = session;
         this.serverContext = serverContext;
-        if ((session != null) && (session.getListener() != null) && 
-            session.getListener().getDataConnectionConfiguration().isImplicitSsl()) {
+        if (session.getListener().getDataConnectionConfiguration()
+                .isImplicitSsl()) {
             secure = true;
         }
     }
@@ -138,7 +139,7 @@ public class IODataConnectionFactory implements ServerDataConnectionFactory {
         requestTime = System.currentTimeMillis();
     }
 
-    private SslConfiguration getSslConfiguration() {
+    public SslConfiguration getSslConfiguration() {
         DataConnectionConfiguration dataCfg = session.getListener()
                 .getDataConnectionConfiguration();
 
@@ -223,6 +224,7 @@ public class IODataConnectionFactory implements ServerDataConnectionFactory {
 
             return new InetSocketAddress(address, port);
         } catch (Exception ex) {
+            servSoc = null;
             closeDataConnection();
             throw new DataConnectionException(
                     "Failed to initate passive data connection: "
@@ -260,7 +262,7 @@ public class IODataConnectionFactory implements ServerDataConnectionFactory {
     /**
      * Get the data socket. In case of error returns null.
      */
-    private synchronized Socket createDataSocket() throws Exception {
+    public synchronized Socket createDataSocket() throws Exception {
 
         // get socket depending on the selection
         dataSoc = null;
@@ -277,7 +279,8 @@ public class IODataConnectionFactory implements ServerDataConnectionFactory {
                     }
 
                     // get socket factory
-                    SSLSocketFactory socFactory = ssl.getSocketFactory();
+                    SSLContext ctx = ssl.getSSLContext();
+                    SSLSocketFactory socFactory = ctx.getSocketFactory();
 
                     // create socket
                     SSLSocket ssoc = (SSLSocket) socFactory.createSocket();
@@ -325,13 +328,14 @@ public class IODataConnectionFactory implements ServerDataConnectionFactory {
                                 "Data connection SSL not configured");
                     }
 
-                    SSLSocketFactory ssocketFactory = ssl.getSocketFactory();
+                    SSLContext ctx = ssl.getSSLContext();
+                    SSLSocketFactory ssocketFactory = ctx.getSocketFactory();
 
                     Socket serverSocket = servSoc.accept();
 
                     SSLSocket sslSocket = (SSLSocket) ssocketFactory
                             .createSocket(serverSocket, serverSocket
-                                    .getInetAddress().getHostAddress(),
+                                    .getInetAddress().getHostName(),
                                     serverSocket.getPort(), true);
                     sslSocket.setUseClientMode(false);
 
@@ -353,22 +357,6 @@ public class IODataConnectionFactory implements ServerDataConnectionFactory {
 
                     dataSoc = servSoc.accept();
                 }
-                
-                if (dataConfig.isPassiveIpCheck()) {
-					// Let's make sure we got the connection from the same
-					// client that we are expecting
-					InetAddress remoteAddress = ((InetSocketAddress) session.getRemoteAddress()).getAddress();
-					InetAddress dataSocketAddress = dataSoc.getInetAddress();
-					if (!dataSocketAddress.equals(remoteAddress)) {
-						LOG.warn("Passive IP Check failed. Closing data connection from "
-							+ dataSocketAddress
-							+ " as it does not match the expected address "
-							+ remoteAddress);
-						closeDataConnection();
-						return null;
-					}
-				}
-                
                 DataConnectionConfiguration dataCfg = session.getListener()
                     .getDataConnectionConfiguration();
                 
@@ -396,7 +384,7 @@ public class IODataConnectionFactory implements ServerDataConnectionFactory {
      *  (non-Javadoc)
      *   Returns an InetAddress object from a hostname or IP address.
      */
-    private InetAddress resolveAddress(String host)
+    public InetAddress resolveAddress(String host)
             throws DataConnectionException {
         if (host == null) {
             return null;
@@ -484,4 +472,77 @@ public class IODataConnectionFactory implements ServerDataConnectionFactory {
     public void setServerControlAddress(final InetAddress serverControlAddress) {
         this.serverControlAddress = serverControlAddress;
     }
+
+	public FtpServerContext getServerContext() {
+		return serverContext;
+	}
+
+	public void setServerContext(FtpServerContext serverContext) {
+		this.serverContext = serverContext;
+	}
+
+	public Socket getDataSoc() {
+		return dataSoc;
+	}
+
+	public void setDataSoc(Socket dataSoc) {
+		this.dataSoc = dataSoc;
+	}
+
+	public ServerSocket getServSoc() {
+		return servSoc;
+	}
+
+	public void setServSoc(ServerSocket servSoc) {
+		this.servSoc = servSoc;
+	}
+
+	public InetAddress getAddress() {
+		return address;
+	}
+
+	public void setAddress(InetAddress address) {
+		this.address = address;
+	}
+
+	public long getRequestTime() {
+		return requestTime;
+	}
+
+	public void setRequestTime(long requestTime) {
+		this.requestTime = requestTime;
+	}
+
+	public boolean isPassive() {
+		return passive;
+	}
+
+	public void setPassive(boolean passive) {
+		this.passive = passive;
+	}
+
+	public boolean isZip() {
+		return isZip;
+	}
+
+	public void setZip(boolean isZip) {
+		this.isZip = isZip;
+	}
+
+	public FtpIoSession getSession() {
+		return session;
+	}
+
+	public void setSession(FtpIoSession session) {
+		this.session = session;
+	}
+
+	public InetAddress getServerControlAddress() {
+		return serverControlAddress;
+	}
+
+	public void setPort(int port) {
+		this.port = port;
+	}
+    
 }
