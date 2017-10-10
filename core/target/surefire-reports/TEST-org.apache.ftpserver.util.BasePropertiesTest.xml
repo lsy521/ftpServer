@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.ftpserver.util.BasePropertiesTest" time="0.043" tests="21" errors="0" skipped="0" failures="0">
+<testsuite name="org.apache.ftpserver.util.BasePropertiesTest" time="0" tests="21" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\bin"/>
@@ -77,11 +77,11 @@
   <testcase name="testGetBoolean" classname="org.apache.ftpserver.util.BasePropertiesTest" time="0"/>
   <testcase name="testSetDouble" classname="org.apache.ftpserver.util.BasePropertiesTest" time="0"/>
   <testcase name="testGetDouble" classname="org.apache.ftpserver.util.BasePropertiesTest" time="0"/>
-  <testcase name="testGetInetAddress" classname="org.apache.ftpserver.util.BasePropertiesTest" time="0.042"/>
+  <testcase name="testGetInetAddress" classname="org.apache.ftpserver.util.BasePropertiesTest" time="0"/>
   <testcase name="testSetString" classname="org.apache.ftpserver.util.BasePropertiesTest" time="0"/>
   <testcase name="testGetString" classname="org.apache.ftpserver.util.BasePropertiesTest" time="0"/>
   <testcase name="testSetDate" classname="org.apache.ftpserver.util.BasePropertiesTest" time="0"/>
-  <testcase name="testSetFile" classname="org.apache.ftpserver.util.BasePropertiesTest" time="0.001"/>
+  <testcase name="testSetFile" classname="org.apache.ftpserver.util.BasePropertiesTest" time="0"/>
   <testcase name="testSetLong" classname="org.apache.ftpserver.util.BasePropertiesTest" time="0"/>
   <testcase name="testGetDateFormat" classname="org.apache.ftpserver.util.BasePropertiesTest" time="0"/>
   <testcase name="testSetClass" classname="org.apache.ftpserver.util.BasePropertiesTest" time="0"/>

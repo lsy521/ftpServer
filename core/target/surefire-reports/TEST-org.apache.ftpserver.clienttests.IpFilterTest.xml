@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.ftpserver.clienttests.IpFilterTest" time="0.028" tests="3" errors="0" skipped="0" failures="0">
+<testsuite name="org.apache.ftpserver.clienttests.IpFilterTest" time="0.027" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\bin"/>
@@ -64,7 +64,7 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="testWhiteList" classname="org.apache.ftpserver.clienttests.IpFilterTest" time="0.005"/>
-  <testcase name="testDenyBlackList" classname="org.apache.ftpserver.clienttests.IpFilterTest" time="0.012"/>
-  <testcase name="testDenyEmptyWhiteList" classname="org.apache.ftpserver.clienttests.IpFilterTest" time="0.011"/>
+  <testcase name="testWhiteList" classname="org.apache.ftpserver.clienttests.IpFilterTest" time="0.008"/>
+  <testcase name="testDenyBlackList" classname="org.apache.ftpserver.clienttests.IpFilterTest" time="0.01"/>
+  <testcase name="testDenyEmptyWhiteList" classname="org.apache.ftpserver.clienttests.IpFilterTest" time="0.009"/>
 </testsuite>

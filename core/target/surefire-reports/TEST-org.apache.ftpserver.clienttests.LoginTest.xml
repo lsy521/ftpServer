@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.ftpserver.clienttests.LoginTest" time="2.764" tests="19" errors="0" skipped="0" failures="0">
+<testsuite name="org.apache.ftpserver.clienttests.LoginTest" time="2.747" tests="19" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\bin"/>
@@ -65,22 +65,22 @@
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
   <testcase name="testCommandWithoutLogin" classname="org.apache.ftpserver.clienttests.LoginTest" time="0.006"/>
-  <testcase name="testLoginUnknownUser" classname="org.apache.ftpserver.clienttests.LoginTest" time="0.513"/>
-  <testcase name="testOnlyPass" classname="org.apache.ftpserver.clienttests.LoginTest" time="0.012"/>
-  <testcase name="testLogin" classname="org.apache.ftpserver.clienttests.LoginTest" time="0.012"/>
-  <testcase name="testREIN" classname="org.apache.ftpserver.clienttests.LoginTest" time="0.013"/>
-  <testcase name="testLoginAnon" classname="org.apache.ftpserver.clienttests.LoginTest" time="0.013"/>
-  <testcase name="testDoubleLoginSameUser" classname="org.apache.ftpserver.clienttests.LoginTest" time="0.012"/>
-  <testcase name="testLoginWithEmptyCorrectPassword" classname="org.apache.ftpserver.clienttests.LoginTest" time="0.012"/>
-  <testcase name="testReLoginWithOnlyPass" classname="org.apache.ftpserver.clienttests.LoginTest" time="0.513"/>
-  <testcase name="testLoginNoUser" classname="org.apache.ftpserver.clienttests.LoginTest" time="0.017"/>
-  <testcase name="testReLogin" classname="org.apache.ftpserver.clienttests.LoginTest" time="0.517"/>
-  <testcase name="testLoginIncorrectPassword" classname="org.apache.ftpserver.clienttests.LoginTest" time="0.514"/>
-  <testcase name="testLoginWithAccount" classname="org.apache.ftpserver.clienttests.LoginTest" time="0.019"/>
-  <testcase name="testDoubleLoginDifferentUser" classname="org.apache.ftpserver.clienttests.LoginTest" time="0.018"/>
-  <testcase name="testLoginWithMaxConnections" classname="org.apache.ftpserver.clienttests.LoginTest" time="0.017"/>
-  <testcase name="testLoginDisabledUser" classname="org.apache.ftpserver.clienttests.LoginTest" time="0.01"/>
+  <testcase name="testLoginUnknownUser" classname="org.apache.ftpserver.clienttests.LoginTest" time="0.511"/>
+  <testcase name="testOnlyPass" classname="org.apache.ftpserver.clienttests.LoginTest" time="0.013"/>
+  <testcase name="testLogin" classname="org.apache.ftpserver.clienttests.LoginTest" time="0.014"/>
+  <testcase name="testREIN" classname="org.apache.ftpserver.clienttests.LoginTest" time="0.01"/>
+  <testcase name="testLoginAnon" classname="org.apache.ftpserver.clienttests.LoginTest" time="0.009"/>
+  <testcase name="testDoubleLoginSameUser" classname="org.apache.ftpserver.clienttests.LoginTest" time="0.009"/>
+  <testcase name="testLoginWithEmptyCorrectPassword" classname="org.apache.ftpserver.clienttests.LoginTest" time="0.01"/>
+  <testcase name="testReLoginWithOnlyPass" classname="org.apache.ftpserver.clienttests.LoginTest" time="0.509"/>
+  <testcase name="testLoginNoUser" classname="org.apache.ftpserver.clienttests.LoginTest" time="0.01"/>
+  <testcase name="testReLogin" classname="org.apache.ftpserver.clienttests.LoginTest" time="0.515"/>
+  <testcase name="testLoginIncorrectPassword" classname="org.apache.ftpserver.clienttests.LoginTest" time="0.52"/>
+  <testcase name="testLoginWithAccount" classname="org.apache.ftpserver.clienttests.LoginTest" time="0.028"/>
+  <testcase name="testDoubleLoginDifferentUser" classname="org.apache.ftpserver.clienttests.LoginTest" time="0.012"/>
+  <testcase name="testLoginWithMaxConnections" classname="org.apache.ftpserver.clienttests.LoginTest" time="0.018"/>
+  <testcase name="testLoginDisabledUser" classname="org.apache.ftpserver.clienttests.LoginTest" time="0.008"/>
   <testcase name="testLoginWithEmptyPassword" classname="org.apache.ftpserver.clienttests.LoginTest" time="0.512"/>
-  <testcase name="testLoginCount" classname="org.apache.ftpserver.clienttests.LoginTest" time="0.019"/>
-  <testcase name="testLoginThenPass" classname="org.apache.ftpserver.clienttests.LoginTest" time="0.015"/>
+  <testcase name="testLoginCount" classname="org.apache.ftpserver.clienttests.LoginTest" time="0.023"/>
+  <testcase name="testLoginThenPass" classname="org.apache.ftpserver.clienttests.LoginTest" time="0.01"/>
 </testsuite>

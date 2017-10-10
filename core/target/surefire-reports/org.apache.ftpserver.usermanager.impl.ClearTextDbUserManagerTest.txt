@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: org.apache.ftpserver.usermanager.impl.ClearTextDbUserManagerTest
 -------------------------------------------------------------------------------
-Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.088 sec - in org.apache.ftpserver.usermanager.impl.ClearTextDbUserManagerTest
+Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.055 sec - in org.apache.ftpserver.usermanager.impl.ClearTextDbUserManagerTest

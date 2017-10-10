@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.ftpserver.filesystem.nativefs.impl.NativeFtpFileTest" time="0.112" tests="9" errors="0" skipped="0" failures="0">
+<testsuite name="org.apache.ftpserver.filesystem.nativefs.impl.NativeFtpFileTest" time="0.089" tests="9" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\bin"/>
@@ -65,12 +65,12 @@
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
   <testcase name="testDeleteReadOnlyFiles" classname="org.apache.ftpserver.filesystem.nativefs.impl.NativeFtpFileTest" time="0.009"/>
-  <testcase name="testConstructorWithNullFile" classname="org.apache.ftpserver.filesystem.nativefs.impl.NativeFtpFileTest" time="0.013"/>
-  <testcase name="testNonLeadingSlash" classname="org.apache.ftpserver.filesystem.nativefs.impl.NativeFtpFileTest" time="0.014"/>
-  <testcase name="testListFilesInOrder" classname="org.apache.ftpserver.filesystem.nativefs.impl.NativeFtpFileTest" time="0.013"/>
-  <testcase name="testEmptyFileName" classname="org.apache.ftpserver.filesystem.nativefs.impl.NativeFtpFileTest" time="0.013"/>
-  <testcase name="testShortName" classname="org.apache.ftpserver.filesystem.nativefs.impl.NativeFtpFileTest" time="0.013"/>
-  <testcase name="testWhiteSpaceFileName" classname="org.apache.ftpserver.filesystem.nativefs.impl.NativeFtpFileTest" time="0.013"/>
-  <testcase name="testNullFileName" classname="org.apache.ftpserver.filesystem.nativefs.impl.NativeFtpFileTest" time="0.013"/>
-  <testcase name="testFullName" classname="org.apache.ftpserver.filesystem.nativefs.impl.NativeFtpFileTest" time="0.011"/>
+  <testcase name="testConstructorWithNullFile" classname="org.apache.ftpserver.filesystem.nativefs.impl.NativeFtpFileTest" time="0.01"/>
+  <testcase name="testNonLeadingSlash" classname="org.apache.ftpserver.filesystem.nativefs.impl.NativeFtpFileTest" time="0.01"/>
+  <testcase name="testListFilesInOrder" classname="org.apache.ftpserver.filesystem.nativefs.impl.NativeFtpFileTest" time="0.011"/>
+  <testcase name="testEmptyFileName" classname="org.apache.ftpserver.filesystem.nativefs.impl.NativeFtpFileTest" time="0.01"/>
+  <testcase name="testShortName" classname="org.apache.ftpserver.filesystem.nativefs.impl.NativeFtpFileTest" time="0.009"/>
+  <testcase name="testWhiteSpaceFileName" classname="org.apache.ftpserver.filesystem.nativefs.impl.NativeFtpFileTest" time="0.01"/>
+  <testcase name="testNullFileName" classname="org.apache.ftpserver.filesystem.nativefs.impl.NativeFtpFileTest" time="0.01"/>
+  <testcase name="testFullName" classname="org.apache.ftpserver.filesystem.nativefs.impl.NativeFtpFileTest" time="0.01"/>
 </testsuite>

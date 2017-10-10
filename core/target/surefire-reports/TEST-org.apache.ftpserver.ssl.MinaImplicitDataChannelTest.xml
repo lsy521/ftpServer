@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.ftpserver.ssl.MinaImplicitDataChannelTest" time="0.334" tests="11" errors="0" skipped="0" failures="0">
+<testsuite name="org.apache.ftpserver.ssl.MinaImplicitDataChannelTest" time="0.34" tests="11" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\bin"/>
@@ -64,15 +64,15 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="testStoreWithProtPInPassiveMode" classname="org.apache.ftpserver.ssl.MinaImplicitDataChannelTest" time="0.033"/>
-  <testcase name="testThatDataChannelIsSecure" classname="org.apache.ftpserver.ssl.MinaImplicitDataChannelTest" time="0.024"/>
-  <testcase name="testStoreWithoutProtPInActiveMode" classname="org.apache.ftpserver.ssl.MinaImplicitDataChannelTest" time="0.038"/>
-  <testcase name="testCommandChannel" classname="org.apache.ftpserver.ssl.MinaImplicitDataChannelTest" time="0.021"/>
+  <testcase name="testStoreWithProtPInPassiveMode" classname="org.apache.ftpserver.ssl.MinaImplicitDataChannelTest" time="0.037"/>
+  <testcase name="testThatDataChannelIsSecure" classname="org.apache.ftpserver.ssl.MinaImplicitDataChannelTest" time="0.021"/>
+  <testcase name="testStoreWithoutProtPInActiveMode" classname="org.apache.ftpserver.ssl.MinaImplicitDataChannelTest" time="0.039"/>
+  <testcase name="testCommandChannel" classname="org.apache.ftpserver.ssl.MinaImplicitDataChannelTest" time="0.023"/>
   <testcase name="testReissueAuth" classname="org.apache.ftpserver.ssl.MinaImplicitDataChannelTest" time="0.02"/>
-  <testcase name="testStoreWithProtPInActiveMode" classname="org.apache.ftpserver.ssl.MinaImplicitDataChannelTest" time="0.037"/>
-  <testcase name="testListEmptyDir" classname="org.apache.ftpserver.ssl.MinaImplicitDataChannelTest" time="0.034"/>
+  <testcase name="testStoreWithProtPInActiveMode" classname="org.apache.ftpserver.ssl.MinaImplicitDataChannelTest" time="0.043"/>
+  <testcase name="testListEmptyDir" classname="org.apache.ftpserver.ssl.MinaImplicitDataChannelTest" time="0.033"/>
   <testcase name="testStoreWithProtPAndReturnToProtCInActiveMode" classname="org.apache.ftpserver.ssl.MinaImplicitDataChannelTest" time="0.037"/>
-  <testcase name="testIsSecure" classname="org.apache.ftpserver.ssl.MinaImplicitDataChannelTest" time="0.019"/>
-  <testcase name="testStoreWithProtPAndReturnToProtCInPassiveMode" classname="org.apache.ftpserver.ssl.MinaImplicitDataChannelTest" time="0.038"/>
-  <testcase name="testReceiveEmptyFile" classname="org.apache.ftpserver.ssl.MinaImplicitDataChannelTest" time="0.033"/>
+  <testcase name="testIsSecure" classname="org.apache.ftpserver.ssl.MinaImplicitDataChannelTest" time="0.018"/>
+  <testcase name="testStoreWithProtPAndReturnToProtCInPassiveMode" classname="org.apache.ftpserver.ssl.MinaImplicitDataChannelTest" time="0.037"/>
+  <testcase name="testReceiveEmptyFile" classname="org.apache.ftpserver.ssl.MinaImplicitDataChannelTest" time="0.032"/>
 </testsuite>

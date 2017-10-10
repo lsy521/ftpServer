@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.ftpserver.clienttests.StorePassiveTest" time="0.338" tests="23" errors="0" skipped="0" failures="0">
+<testsuite name="org.apache.ftpserver.clienttests.StorePassiveTest" time="0.297" tests="23" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\bin"/>
@@ -64,27 +64,27 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="testStoreWithoutWriteAccess" classname="org.apache.ftpserver.clienttests.StorePassiveTest" time="0.009"/>
-  <testcase name="testStoreWithCrLf" classname="org.apache.ftpserver.clienttests.StorePassiveTest" time="0.015"/>
-  <testcase name="testStoreWithPath" classname="org.apache.ftpserver.clienttests.StorePassiveTest" time="0.02"/>
-  <testcase name="testStore" classname="org.apache.ftpserver.clienttests.StorePassiveTest" time="0.014"/>
-  <testcase name="testStoreWithNonExistingPath" classname="org.apache.ftpserver.clienttests.StorePassiveTest" time="0.011"/>
-  <testcase name="testStoreWithRestart" classname="org.apache.ftpserver.clienttests.StorePassiveTest" time="0.015"/>
+  <testcase name="testStoreWithoutWriteAccess" classname="org.apache.ftpserver.clienttests.StorePassiveTest" time="0.007"/>
+  <testcase name="testStoreWithCrLf" classname="org.apache.ftpserver.clienttests.StorePassiveTest" time="0.014"/>
+  <testcase name="testStoreWithPath" classname="org.apache.ftpserver.clienttests.StorePassiveTest" time="0.016"/>
+  <testcase name="testStore" classname="org.apache.ftpserver.clienttests.StorePassiveTest" time="0.012"/>
+  <testcase name="testStoreWithNonExistingPath" classname="org.apache.ftpserver.clienttests.StorePassiveTest" time="0.01"/>
+  <testcase name="testStoreWithRestart" classname="org.apache.ftpserver.clienttests.StorePassiveTest" time="0.018"/>
   <testcase name="testStoreNoFileName" classname="org.apache.ftpserver.clienttests.StorePassiveTest" time="0.009"/>
-  <testcase name="testStoreUniqueWithDirectory" classname="org.apache.ftpserver.clienttests.StorePassiveTest" time="0.018"/>
-  <testcase name="testStoreUniqueWithCompletePath" classname="org.apache.ftpserver.clienttests.StorePassiveTest" time="0.019"/>
-  <testcase name="testAppendWithDirectoryInPlace" classname="org.apache.ftpserver.clienttests.StorePassiveTest" time="0.012"/>
-  <testcase name="testStoreWithDirectoryInPlace" classname="org.apache.ftpserver.clienttests.StorePassiveTest" time="0.014"/>
-  <testcase name="testStoreWithExistingFile" classname="org.apache.ftpserver.clienttests.StorePassiveTest" time="0.014"/>
-  <testcase name="testAppendWithoutWriteAccess" classname="org.apache.ftpserver.clienttests.StorePassiveTest" time="0.01"/>
-  <testcase name="testStoreUniqueWithNoDirectory" classname="org.apache.ftpserver.clienttests.StorePassiveTest" time="0.014"/>
-  <testcase name="testStoreUniqueWithDirectoryWithTrailingSlash" classname="org.apache.ftpserver.clienttests.StorePassiveTest" time="0.019"/>
-  <testcase name="testAppend" classname="org.apache.ftpserver.clienttests.StorePassiveTest" time="0.014"/>
-  <testcase name="testAppendToNoExistingFile" classname="org.apache.ftpserver.clienttests.StorePassiveTest" time="0.014"/>
-  <testcase name="testStoreEmptyFile" classname="org.apache.ftpserver.clienttests.StorePassiveTest" time="0.015"/>
-  <testcase name="testAppendWithPath" classname="org.apache.ftpserver.clienttests.StorePassiveTest" time="0.02"/>
-  <testcase name="testStoreWithLf" classname="org.apache.ftpserver.clienttests.StorePassiveTest" time="0.02"/>
-  <testcase name="testAppendNoFileName" classname="org.apache.ftpserver.clienttests.StorePassiveTest" time="0.009"/>
-  <testcase name="testStoreWithLeadingSlash" classname="org.apache.ftpserver.clienttests.StorePassiveTest" time="0.018"/>
+  <testcase name="testStoreUniqueWithDirectory" classname="org.apache.ftpserver.clienttests.StorePassiveTest" time="0.016"/>
+  <testcase name="testStoreUniqueWithCompletePath" classname="org.apache.ftpserver.clienttests.StorePassiveTest" time="0.017"/>
+  <testcase name="testAppendWithDirectoryInPlace" classname="org.apache.ftpserver.clienttests.StorePassiveTest" time="0.011"/>
+  <testcase name="testStoreWithDirectoryInPlace" classname="org.apache.ftpserver.clienttests.StorePassiveTest" time="0.011"/>
+  <testcase name="testStoreWithExistingFile" classname="org.apache.ftpserver.clienttests.StorePassiveTest" time="0.013"/>
+  <testcase name="testAppendWithoutWriteAccess" classname="org.apache.ftpserver.clienttests.StorePassiveTest" time="0.009"/>
+  <testcase name="testStoreUniqueWithNoDirectory" classname="org.apache.ftpserver.clienttests.StorePassiveTest" time="0.012"/>
+  <testcase name="testStoreUniqueWithDirectoryWithTrailingSlash" classname="org.apache.ftpserver.clienttests.StorePassiveTest" time="0.014"/>
+  <testcase name="testAppend" classname="org.apache.ftpserver.clienttests.StorePassiveTest" time="0.012"/>
+  <testcase name="testAppendToNoExistingFile" classname="org.apache.ftpserver.clienttests.StorePassiveTest" time="0.012"/>
+  <testcase name="testStoreEmptyFile" classname="org.apache.ftpserver.clienttests.StorePassiveTest" time="0.016"/>
+  <testcase name="testAppendWithPath" classname="org.apache.ftpserver.clienttests.StorePassiveTest" time="0.017"/>
+  <testcase name="testStoreWithLf" classname="org.apache.ftpserver.clienttests.StorePassiveTest" time="0.012"/>
+  <testcase name="testAppendNoFileName" classname="org.apache.ftpserver.clienttests.StorePassiveTest" time="0.008"/>
+  <testcase name="testStoreWithLeadingSlash" classname="org.apache.ftpserver.clienttests.StorePassiveTest" time="0.016"/>
   <testcase name="testStoreWithLeadingSpace" classname="org.apache.ftpserver.clienttests.StorePassiveTest" time="0.015"/>
 </testsuite>

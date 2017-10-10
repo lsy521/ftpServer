@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.ftpserver.clienttests.MFMTTest" time="0.253" tests="13" errors="0" skipped="0" failures="0">
+<testsuite name="org.apache.ftpserver.clienttests.MFMTTest" time="0.245" tests="13" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\bin"/>
@@ -64,17 +64,17 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="testNegativeTimestamp" classname="org.apache.ftpserver.clienttests.MFMTTest" time="0.017"/>
-  <testcase name="testNoManyArguments" classname="org.apache.ftpserver.clienttests.MFMTTest" time="0.02"/>
-  <testcase name="testIncorrectTimestamp" classname="org.apache.ftpserver.clienttests.MFMTTest" time="0.018"/>
-  <testcase name="testNoArgument" classname="org.apache.ftpserver.clienttests.MFMTTest" time="0.017"/>
-  <testcase name="testNonTimestampArgument" classname="org.apache.ftpserver.clienttests.MFMTTest" time="0.02"/>
+  <testcase name="testNegativeTimestamp" classname="org.apache.ftpserver.clienttests.MFMTTest" time="0.014"/>
+  <testcase name="testNoManyArguments" classname="org.apache.ftpserver.clienttests.MFMTTest" time="0.018"/>
+  <testcase name="testIncorrectTimestamp" classname="org.apache.ftpserver.clienttests.MFMTTest" time="0.019"/>
+  <testcase name="testNoArgument" classname="org.apache.ftpserver.clienttests.MFMTTest" time="0.019"/>
+  <testcase name="testNonTimestampArgument" classname="org.apache.ftpserver.clienttests.MFMTTest" time="0.018"/>
   <testcase name="testSetTimeFileWithSpaces" classname="org.apache.ftpserver.clienttests.MFMTTest" time="0.019"/>
-  <testcase name="testDirectory" classname="org.apache.ftpserver.clienttests.MFMTTest" time="0.024"/>
-  <testcase name="testSetTimeFullPath" classname="org.apache.ftpserver.clienttests.MFMTTest" time="0.022"/>
-  <testcase name="testFeatures" classname="org.apache.ftpserver.clienttests.MFMTTest" time="0.018"/>
-  <testcase name="testNonExistingFile" classname="org.apache.ftpserver.clienttests.MFMTTest" time="0.02"/>
-  <testcase name="testSetTime" classname="org.apache.ftpserver.clienttests.MFMTTest" time="0.021"/>
-  <testcase name="testNotCompleteTimestamp" classname="org.apache.ftpserver.clienttests.MFMTTest" time="0.019"/>
-  <testcase name="testSingleArgument" classname="org.apache.ftpserver.clienttests.MFMTTest" time="0.018"/>
+  <testcase name="testDirectory" classname="org.apache.ftpserver.clienttests.MFMTTest" time="0.018"/>
+  <testcase name="testSetTimeFullPath" classname="org.apache.ftpserver.clienttests.MFMTTest" time="0.019"/>
+  <testcase name="testFeatures" classname="org.apache.ftpserver.clienttests.MFMTTest" time="0.025"/>
+  <testcase name="testNonExistingFile" classname="org.apache.ftpserver.clienttests.MFMTTest" time="0.015"/>
+  <testcase name="testSetTime" classname="org.apache.ftpserver.clienttests.MFMTTest" time="0.023"/>
+  <testcase name="testNotCompleteTimestamp" classname="org.apache.ftpserver.clienttests.MFMTTest" time="0.018"/>
+  <testcase name="testSingleArgument" classname="org.apache.ftpserver.clienttests.MFMTTest" time="0.02"/>
 </testsuite>

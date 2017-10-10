@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.ftpserver.clienttests.NLSTTest" time="0.106" tests="6" errors="0" skipped="0" failures="0">
+<testsuite name="org.apache.ftpserver.clienttests.NLSTTest" time="0.102" tests="6" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\bin"/>
@@ -64,10 +64,10 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="testListNamesWithFullFilePath" classname="org.apache.ftpserver.clienttests.NLSTTest" time="0.013"/>
-  <testcase name="testListNamesInDirWithParent" classname="org.apache.ftpserver.clienttests.NLSTTest" time="0.018"/>
-  <testcase name="testListNames" classname="org.apache.ftpserver.clienttests.NLSTTest" time="0.02"/>
-  <testcase name="testListNamesInDirWithHomeDir" classname="org.apache.ftpserver.clienttests.NLSTTest" time="0.018"/>
-  <testcase name="testListNamesInDir" classname="org.apache.ftpserver.clienttests.NLSTTest" time="0.02"/>
-  <testcase name="testListName" classname="org.apache.ftpserver.clienttests.NLSTTest" time="0.017"/>
+  <testcase name="testListNamesWithFullFilePath" classname="org.apache.ftpserver.clienttests.NLSTTest" time="0.014"/>
+  <testcase name="testListNamesInDirWithParent" classname="org.apache.ftpserver.clienttests.NLSTTest" time="0.019"/>
+  <testcase name="testListNames" classname="org.apache.ftpserver.clienttests.NLSTTest" time="0.019"/>
+  <testcase name="testListNamesInDirWithHomeDir" classname="org.apache.ftpserver.clienttests.NLSTTest" time="0.017"/>
+  <testcase name="testListNamesInDir" classname="org.apache.ftpserver.clienttests.NLSTTest" time="0.017"/>
+  <testcase name="testListName" classname="org.apache.ftpserver.clienttests.NLSTTest" time="0.016"/>
 </testsuite>

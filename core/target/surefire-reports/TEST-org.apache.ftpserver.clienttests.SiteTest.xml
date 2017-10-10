@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.ftpserver.clienttests.SiteTest" time="0.066" tests="4" errors="0" skipped="0" failures="0">
+<testsuite name="org.apache.ftpserver.clienttests.SiteTest" time="0.054" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\bin"/>
@@ -64,8 +64,8 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="testAnonNotAllowed" classname="org.apache.ftpserver.clienttests.SiteTest" time="0.007"/>
-  <testcase name="testSiteDescUser" classname="org.apache.ftpserver.clienttests.SiteTest" time="0.011"/>
-  <testcase name="testSiteStat" classname="org.apache.ftpserver.clienttests.SiteTest" time="0.038"/>
+  <testcase name="testAnonNotAllowed" classname="org.apache.ftpserver.clienttests.SiteTest" time="0.005"/>
+  <testcase name="testSiteDescUser" classname="org.apache.ftpserver.clienttests.SiteTest" time="0.009"/>
+  <testcase name="testSiteStat" classname="org.apache.ftpserver.clienttests.SiteTest" time="0.03"/>
   <testcase name="testSiteWho" classname="org.apache.ftpserver.clienttests.SiteTest" time="0.01"/>
 </testsuite>

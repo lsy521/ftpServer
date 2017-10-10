@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.ftpserver.clienttests.FtpMd5Test" time="0.151" tests="10" errors="0" skipped="0" failures="0">
+<testsuite name="org.apache.ftpserver.clienttests.FtpMd5Test" time="0.19" tests="10" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\bin"/>
@@ -65,13 +65,13 @@
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
   <testcase name="testMd5" classname="org.apache.ftpserver.clienttests.FtpMd5Test" time="0.012"/>
-  <testcase name="testMMd5" classname="org.apache.ftpserver.clienttests.FtpMd5Test" time="0.017"/>
-  <testcase name="testMd5WithDirectory" classname="org.apache.ftpserver.clienttests.FtpMd5Test" time="0.012"/>
-  <testcase name="testMd5WithNonExistingFile" classname="org.apache.ftpserver.clienttests.FtpMd5Test" time="0.012"/>
-  <testcase name="testMMd5MixedFilesAndDirs" classname="org.apache.ftpserver.clienttests.FtpMd5Test" time="0.015"/>
+  <testcase name="testMMd5" classname="org.apache.ftpserver.clienttests.FtpMd5Test" time="0.019"/>
+  <testcase name="testMd5WithDirectory" classname="org.apache.ftpserver.clienttests.FtpMd5Test" time="0.015"/>
+  <testcase name="testMd5WithNonExistingFile" classname="org.apache.ftpserver.clienttests.FtpMd5Test" time="0.013"/>
+  <testcase name="testMMd5MixedFilesAndDirs" classname="org.apache.ftpserver.clienttests.FtpMd5Test" time="0.034"/>
   <testcase name="testMd5WithSpaceInFileName" classname="org.apache.ftpserver.clienttests.FtpMd5Test" time="0.017"/>
-  <testcase name="testMMd5SingleFile" classname="org.apache.ftpserver.clienttests.FtpMd5Test" time="0.014"/>
-  <testcase name="testMd5WithPath" classname="org.apache.ftpserver.clienttests.FtpMd5Test" time="0.018"/>
+  <testcase name="testMMd5SingleFile" classname="org.apache.ftpserver.clienttests.FtpMd5Test" time="0.017"/>
+  <testcase name="testMd5WithPath" classname="org.apache.ftpserver.clienttests.FtpMd5Test" time="0.023"/>
   <testcase name="testMd5NoFileName" classname="org.apache.ftpserver.clienttests.FtpMd5Test" time="0.018"/>
-  <testcase name="testMd5NonExistingFile" classname="org.apache.ftpserver.clienttests.FtpMd5Test" time="0.016"/>
+  <testcase name="testMd5NonExistingFile" classname="org.apache.ftpserver.clienttests.FtpMd5Test" time="0.022"/>
 </testsuite>

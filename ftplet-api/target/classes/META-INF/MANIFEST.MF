@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1507615131547
+Bnd-LastModified: 1507620316135
 Build-Jdk: 1.8.0_131
 Built-By: PC
 Bundle-Description: Ftplets are, similar to servlets, an API to plug int

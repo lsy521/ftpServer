@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.ftpserver.usermanager.impl.ClearTextDbUserManagerTest" time="0.079" tests="19" errors="0" skipped="0" failures="0">
+<testsuite name="org.apache.ftpserver.usermanager.impl.ClearTextDbUserManagerTest" time="0.054" tests="19" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\bin"/>
@@ -64,22 +64,22 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="testGetUserByName" classname="org.apache.ftpserver.usermanager.impl.ClearTextDbUserManagerTest" time="0.036"/>
+  <testcase name="testGetUserByName" classname="org.apache.ftpserver.usermanager.impl.ClearTextDbUserManagerTest" time="0.011"/>
   <testcase name="testAuthenticate" classname="org.apache.ftpserver.usermanager.impl.ClearTextDbUserManagerTest" time="0.004"/>
-  <testcase name="testSaveWithDefaultValues" classname="org.apache.ftpserver.usermanager.impl.ClearTextDbUserManagerTest" time="0.003"/>
-  <testcase name="testSave" classname="org.apache.ftpserver.usermanager.impl.ClearTextDbUserManagerTest" time="0.005"/>
-  <testcase name="testDoesExist" classname="org.apache.ftpserver.usermanager.impl.ClearTextDbUserManagerTest" time="0.003"/>
-  <testcase name="testGetUserByNameWithUnknownUser" classname="org.apache.ftpserver.usermanager.impl.ClearTextDbUserManagerTest" time="0.006"/>
+  <testcase name="testSaveWithDefaultValues" classname="org.apache.ftpserver.usermanager.impl.ClearTextDbUserManagerTest" time="0.002"/>
+  <testcase name="testSave" classname="org.apache.ftpserver.usermanager.impl.ClearTextDbUserManagerTest" time="0.004"/>
+  <testcase name="testDoesExist" classname="org.apache.ftpserver.usermanager.impl.ClearTextDbUserManagerTest" time="0.01"/>
+  <testcase name="testGetUserByNameWithUnknownUser" classname="org.apache.ftpserver.usermanager.impl.ClearTextDbUserManagerTest" time="0"/>
   <testcase name="testAuthenticateUnknownAuthentication" classname="org.apache.ftpserver.usermanager.impl.ClearTextDbUserManagerTest" time="0"/>
-  <testcase name="testAuthenticateEmptyPassword" classname="org.apache.ftpserver.usermanager.impl.ClearTextDbUserManagerTest" time="0.002"/>
-  <testcase name="testSaveWithExistingUser" classname="org.apache.ftpserver.usermanager.impl.ClearTextDbUserManagerTest" time="0.002"/>
+  <testcase name="testAuthenticateEmptyPassword" classname="org.apache.ftpserver.usermanager.impl.ClearTextDbUserManagerTest" time="0"/>
+  <testcase name="testSaveWithExistingUser" classname="org.apache.ftpserver.usermanager.impl.ClearTextDbUserManagerTest" time="0.001"/>
   <testcase name="testAuthenticateWrongPassword" classname="org.apache.ftpserver.usermanager.impl.ClearTextDbUserManagerTest" time="0.002"/>
-  <testcase name="testGetUserByNameWithDefaultValues" classname="org.apache.ftpserver.usermanager.impl.ClearTextDbUserManagerTest" time="0.004"/>
-  <testcase name="testAuthenticateNullUser" classname="org.apache.ftpserver.usermanager.impl.ClearTextDbUserManagerTest" time="0"/>
-  <testcase name="testDeleteNonExistingUser" classname="org.apache.ftpserver.usermanager.impl.ClearTextDbUserManagerTest" time="0"/>
+  <testcase name="testGetUserByNameWithDefaultValues" classname="org.apache.ftpserver.usermanager.impl.ClearTextDbUserManagerTest" time="0.002"/>
+  <testcase name="testAuthenticateNullUser" classname="org.apache.ftpserver.usermanager.impl.ClearTextDbUserManagerTest" time="0.001"/>
+  <testcase name="testDeleteNonExistingUser" classname="org.apache.ftpserver.usermanager.impl.ClearTextDbUserManagerTest" time="0.017"/>
   <testcase name="testGetAdminName" classname="org.apache.ftpserver.usermanager.impl.ClearTextDbUserManagerTest" time="0"/>
   <testcase name="testAuthenticateUnknownUser" classname="org.apache.ftpserver.usermanager.impl.ClearTextDbUserManagerTest" time="0"/>
-  <testcase name="testDelete" classname="org.apache.ftpserver.usermanager.impl.ClearTextDbUserManagerTest" time="0.012"/>
+  <testcase name="testDelete" classname="org.apache.ftpserver.usermanager.impl.ClearTextDbUserManagerTest" time="0"/>
   <testcase name="testAuthenticateNullPassword" classname="org.apache.ftpserver.usermanager.impl.ClearTextDbUserManagerTest" time="0"/>
   <testcase name="testIsAdmin" classname="org.apache.ftpserver.usermanager.impl.ClearTextDbUserManagerTest" time="0"/>
   <testcase name="testSavePersistent" classname="org.apache.ftpserver.usermanager.impl.ClearTextDbUserManagerTest" time="0"/>

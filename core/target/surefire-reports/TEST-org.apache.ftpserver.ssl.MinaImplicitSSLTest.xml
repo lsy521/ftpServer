@@ -65,12 +65,12 @@
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
   <testcase name="testCommandChannel" classname="org.apache.ftpserver.ssl.MinaImplicitSSLTest" time="0.016"/>
-  <testcase name="testReissueAuth" classname="org.apache.ftpserver.ssl.MinaImplicitSSLTest" time="0.022"/>
-  <testcase name="testStoreWithProtPInActiveMode" classname="org.apache.ftpserver.ssl.MinaImplicitSSLTest" time="0.031"/>
-  <testcase name="testStoreWithProtPInPassiveMode" classname="org.apache.ftpserver.ssl.MinaImplicitSSLTest" time="0.034"/>
-  <testcase name="testListEmptyDir" classname="org.apache.ftpserver.ssl.MinaImplicitSSLTest" time="0.035"/>
-  <testcase name="testStoreWithProtPAndReturnToProtCInActiveMode" classname="org.apache.ftpserver.ssl.MinaImplicitSSLTest" time="0.037"/>
-  <testcase name="testIsSecure" classname="org.apache.ftpserver.ssl.MinaImplicitSSLTest" time="0.018"/>
-  <testcase name="testStoreWithProtPAndReturnToProtCInPassiveMode" classname="org.apache.ftpserver.ssl.MinaImplicitSSLTest" time="0.039"/>
-  <testcase name="testReceiveEmptyFile" classname="org.apache.ftpserver.ssl.MinaImplicitSSLTest" time="0.03"/>
+  <testcase name="testReissueAuth" classname="org.apache.ftpserver.ssl.MinaImplicitSSLTest" time="0.019"/>
+  <testcase name="testStoreWithProtPInActiveMode" classname="org.apache.ftpserver.ssl.MinaImplicitSSLTest" time="0.034"/>
+  <testcase name="testStoreWithProtPInPassiveMode" classname="org.apache.ftpserver.ssl.MinaImplicitSSLTest" time="0.035"/>
+  <testcase name="testListEmptyDir" classname="org.apache.ftpserver.ssl.MinaImplicitSSLTest" time="0.038"/>
+  <testcase name="testStoreWithProtPAndReturnToProtCInActiveMode" classname="org.apache.ftpserver.ssl.MinaImplicitSSLTest" time="0.034"/>
+  <testcase name="testIsSecure" classname="org.apache.ftpserver.ssl.MinaImplicitSSLTest" time="0.021"/>
+  <testcase name="testStoreWithProtPAndReturnToProtCInPassiveMode" classname="org.apache.ftpserver.ssl.MinaImplicitSSLTest" time="0.036"/>
+  <testcase name="testReceiveEmptyFile" classname="org.apache.ftpserver.ssl.MinaImplicitSSLTest" time="0.029"/>
 </testsuite>

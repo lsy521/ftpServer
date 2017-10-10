@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.ftpserver.ssl.MinaExplicitSSLTest" time="0.358" tests="9" errors="0" skipped="0" failures="0">
+<testsuite name="org.apache.ftpserver.ssl.MinaExplicitSSLTest" time="0.348" tests="9" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\bin"/>
@@ -64,13 +64,13 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="testCommandChannel" classname="org.apache.ftpserver.ssl.MinaExplicitSSLTest" time="0.032"/>
-  <testcase name="testReissueAuth" classname="org.apache.ftpserver.ssl.MinaExplicitSSLTest" time="0.027"/>
-  <testcase name="testStoreWithProtPInActiveMode" classname="org.apache.ftpserver.ssl.MinaExplicitSSLTest" time="0.044"/>
-  <testcase name="testStoreWithProtPInPassiveMode" classname="org.apache.ftpserver.ssl.MinaExplicitSSLTest" time="0.046"/>
-  <testcase name="testListEmptyDir" classname="org.apache.ftpserver.ssl.MinaExplicitSSLTest" time="0.054"/>
-  <testcase name="testStoreWithProtPAndReturnToProtCInActiveMode" classname="org.apache.ftpserver.ssl.MinaExplicitSSLTest" time="0.048"/>
-  <testcase name="testIsSecure" classname="org.apache.ftpserver.ssl.MinaExplicitSSLTest" time="0.023"/>
-  <testcase name="testStoreWithProtPAndReturnToProtCInPassiveMode" classname="org.apache.ftpserver.ssl.MinaExplicitSSLTest" time="0.047"/>
-  <testcase name="testReceiveEmptyFile" classname="org.apache.ftpserver.ssl.MinaExplicitSSLTest" time="0.037"/>
+  <testcase name="testCommandChannel" classname="org.apache.ftpserver.ssl.MinaExplicitSSLTest" time="0.021"/>
+  <testcase name="testReissueAuth" classname="org.apache.ftpserver.ssl.MinaExplicitSSLTest" time="0.026"/>
+  <testcase name="testStoreWithProtPInActiveMode" classname="org.apache.ftpserver.ssl.MinaExplicitSSLTest" time="0.06"/>
+  <testcase name="testStoreWithProtPInPassiveMode" classname="org.apache.ftpserver.ssl.MinaExplicitSSLTest" time="0.038"/>
+  <testcase name="testListEmptyDir" classname="org.apache.ftpserver.ssl.MinaExplicitSSLTest" time="0.041"/>
+  <testcase name="testStoreWithProtPAndReturnToProtCInActiveMode" classname="org.apache.ftpserver.ssl.MinaExplicitSSLTest" time="0.041"/>
+  <testcase name="testIsSecure" classname="org.apache.ftpserver.ssl.MinaExplicitSSLTest" time="0.025"/>
+  <testcase name="testStoreWithProtPAndReturnToProtCInPassiveMode" classname="org.apache.ftpserver.ssl.MinaExplicitSSLTest" time="0.053"/>
+  <testcase name="testReceiveEmptyFile" classname="org.apache.ftpserver.ssl.MinaExplicitSSLTest" time="0.043"/>
 </testsuite>

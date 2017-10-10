@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.ftpserver.filesystem.nativefs.impl.NativeFileSystemViewTest" time="0.075" tests="9" errors="0" skipped="0" failures="0">
+<testsuite name="org.apache.ftpserver.filesystem.nativefs.impl.NativeFileSystemViewTest" time="0.05" tests="9" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\bin"/>
@@ -64,13 +64,13 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="testGetPhysicalNameWithRelative" classname="org.apache.ftpserver.filesystem.nativefs.impl.NativeFileSystemViewTest" time="0.005"/>
-  <testcase name="testGetPhysicalNameWithTilde" classname="org.apache.ftpserver.filesystem.nativefs.impl.NativeFileSystemViewTest" time="0.008"/>
-  <testcase name="testGetPhysicalName" classname="org.apache.ftpserver.filesystem.nativefs.impl.NativeFileSystemViewTest" time="0.01"/>
-  <testcase name="testConstructorWithNullHomeDir" classname="org.apache.ftpserver.filesystem.nativefs.impl.NativeFileSystemViewTest" time="0.009"/>
-  <testcase name="testGetPhysicalNameCaseInsensitive" classname="org.apache.ftpserver.filesystem.nativefs.impl.NativeFileSystemViewTest" time="0.009"/>
-  <testcase name="testConstructorWithNullUser" classname="org.apache.ftpserver.filesystem.nativefs.impl.NativeFileSystemViewTest" time="0.008"/>
-  <testcase name="testConstructor" classname="org.apache.ftpserver.filesystem.nativefs.impl.NativeFileSystemViewTest" time="0.009"/>
+  <testcase name="testGetPhysicalNameWithRelative" classname="org.apache.ftpserver.filesystem.nativefs.impl.NativeFileSystemViewTest" time="0"/>
+  <testcase name="testGetPhysicalNameWithTilde" classname="org.apache.ftpserver.filesystem.nativefs.impl.NativeFileSystemViewTest" time="0.002"/>
+  <testcase name="testGetPhysicalName" classname="org.apache.ftpserver.filesystem.nativefs.impl.NativeFileSystemViewTest" time="0.007"/>
+  <testcase name="testConstructorWithNullHomeDir" classname="org.apache.ftpserver.filesystem.nativefs.impl.NativeFileSystemViewTest" time="0.007"/>
+  <testcase name="testGetPhysicalNameCaseInsensitive" classname="org.apache.ftpserver.filesystem.nativefs.impl.NativeFileSystemViewTest" time="0.007"/>
+  <testcase name="testConstructorWithNullUser" classname="org.apache.ftpserver.filesystem.nativefs.impl.NativeFileSystemViewTest" time="0.007"/>
+  <testcase name="testConstructor" classname="org.apache.ftpserver.filesystem.nativefs.impl.NativeFileSystemViewTest" time="0.006"/>
   <testcase name="testChangeDirectory" classname="org.apache.ftpserver.filesystem.nativefs.impl.NativeFileSystemViewTest" time="0.008"/>
-  <testcase name="testChangeDirectoryCaseInsensitive" classname="org.apache.ftpserver.filesystem.nativefs.impl.NativeFileSystemViewTest" time="0.009"/>
+  <testcase name="testChangeDirectoryCaseInsensitive" classname="org.apache.ftpserver.filesystem.nativefs.impl.NativeFileSystemViewTest" time="0.006"/>
 </testsuite>
