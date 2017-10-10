@@ -1,0 +1,4 @@
+org\apache\ftpserver\ftplet\ExampleFtplet.class
+org\apache\ftpserver\ftplet\DefaultFtpReplyTest.class
+org\apache\ftpserver\ftplet\DataTypeTest.class
+org\apache\ftpserver\ftplet\StructureTest.class

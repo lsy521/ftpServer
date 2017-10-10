@@ -1,0 +1,30 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1507615161161
+Build-Jdk: 1.8.0_131
+Built-By: PC
+Bundle-Activator: org.apache.ftpserver.example.ftpletservice.impl.Activa
+ tor
+Bundle-Description: Simple example where an Ftplet is published as a OSG
+ i service. Another bundle, using the white-board pattern can locate thi
+ s and plug it into a running server.
+Bundle-DocURL: https://www.apache.org/
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0
+Bundle-ManifestVersion: 2
+Bundle-Name: FtpServer OSGi Ftplet service example
+Bundle-SymbolicName: ftpserver-osgi-ftplet-service
+Bundle-Vendor: The Apache Software Foundation
+Bundle-Version: 1.1.1
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.apache.ftpserver.example.ftpletservice;uses:="org.ap
+ ache.ftpserver.ftplet";version="1.1.1"
+Implementation-Title: FtpServer OSGi Ftplet service example
+Implementation-Vendor: The Apache Software Foundation
+Implementation-Vendor-Id: org.apache.ftpserver.examples
+Implementation-Version: 1.1.1
+Import-Package: org.apache.ftpserver.ftplet;version="[1.1,2)",org.osgi.f
+ ramework;version="[1.3,2)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+Specification-Title: FtpServer OSGi Ftplet service example
+Specification-Vendor: The Apache Software Foundation
+Specification-Version: 1.1.1
+Tool: Bnd-2.3.0.201405100607

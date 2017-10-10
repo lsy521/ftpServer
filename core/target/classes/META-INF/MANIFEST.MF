@@ -1,0 +1,66 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1507615159021
+Build-Jdk: 1.8.0_131
+Built-By: PC
+Bundle-Description: The Apache Software Foundation provides support for 
+ the Apache community of open-source software projects.    The Apache pr
+ ojects are characterized by a collaborative, consensus based developmen
+ t process, an open and    pragmatic software license, and a desire to c
+ reate high quality software that leads the way in its field.    We cons
+ ider ourselves not simply a group of projects sharing a server, but rat
+ her a community of developers    and users.
+Bundle-DocURL: https://www.apache.org/
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Apache FtpServer Core
+Bundle-SymbolicName: ftpserver-core
+Bundle-Vendor: The Apache Software Foundation
+Bundle-Version: 1.1.1
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.apache.ftpserver;version="1.1.1";uses:="org.apache.f
+ tpserver.command,org.apache.ftpserver.ftplet,org.apache.ftpserver.liste
+ ner,org.apache.ftpserver.message,org.apache.ftpserver.ssl",org.apache.f
+ tpserver.command;version="1.1.1";uses:="org.apache.ftpserver.ftplet",or
+ g.apache.ftpserver.config.spring;version="1.1.1";uses:="org.apache.ftps
+ erver,org.apache.ftpserver.command,org.apache.ftpserver.ftplet,org.spri
+ ngframework.beans.factory.support,org.springframework.beans.factory.xml
+ ,org.w3c.dom",org.apache.ftpserver.filesystem.nativefs;version="1.1.1";
+ uses:="org.apache.ftpserver.ftplet",org.apache.ftpserver.ftpletcontaine
+ r;version="1.1.1";uses:="org.apache.ftpserver.ftplet",org.apache.ftpser
+ ver.ipfilter;version="1.1.1";uses:="org.apache.mina.core.filterchain,or
+ g.apache.mina.core.session,org.apache.mina.filter.firewall",org.apache.
+ ftpserver.listener;version="1.1.1";uses:="org.apache.ftpserver,org.apac
+ he.ftpserver.ipfilter,org.apache.ftpserver.ssl,org.apache.mina.filter.f
+ irewall",org.apache.ftpserver.main;version="1.1.1";uses:="org.apache.ft
+ pserver",org.apache.ftpserver.message;version="1.1.1",org.apache.ftpser
+ ver.ssl;version="1.1.1";uses:="javax.net.ssl",org.apache.ftpserver.user
+ manager;version="1.1.1";uses:="javax.sql,org.apache.ftpserver.ftplet"
+Implementation-Title: Apache FtpServer Core
+Implementation-Vendor: The Apache Software Foundation
+Implementation-Vendor-Id: org.apache.ftpserver
+Implementation-Version: 1.1.1
+Import-Package: org.springframework.beans.factory.config;resolution:=opt
+ ional;version="2.5",org.springframework.beans.factory.support;resolutio
+ n:=optional;version="2.5",org.springframework.beans.factory.xml;resolut
+ ion:=optional;version="2.5",org.springframework.context.support;resolut
+ ion:=optional;version="2.5",org.springframework.util;resolution:=option
+ al;version="2.5",org.springframework.util.xml;resolution:=optional;vers
+ ion="2.5",javax.net.ssl,javax.sql,org.apache.ftpserver.ftplet;version="
+ [1.1,2)",org.apache.ftpserver.ftpletcontainer;version="[1.1,2)",org.apa
+ che.ftpserver.ipfilter;version="[1.1,2)",org.apache.mina.core.buffer;ve
+ rsion="[2.0,3)",org.apache.mina.core.filterchain;version="[2.0,3)",org.
+ apache.mina.core.future;version="[2.0,3)",org.apache.mina.core.service;
+ version="[2.0,3)",org.apache.mina.core.session;version="[2.0,3)",org.ap
+ ache.mina.core.write;version="[2.0,3)",org.apache.mina.filter.codec;ver
+ sion="[2.0,3)",org.apache.mina.filter.codec.textline;version="[2.0,3)",
+ org.apache.mina.filter.executor;version="[2.0,3)",org.apache.mina.filte
+ r.firewall;version="[2.0,3)",org.apache.mina.filter.logging;version="[2
+ .0,3)",org.apache.mina.filter.ssl;version="[2.0,3)",org.apache.mina.tra
+ nsport.socket;version="[2.0,3)",org.apache.mina.transport.socket.nio;ve
+ rsion="[2.0,3)",org.slf4j;version="[1.7,2)",org.springframework.beans.f
+ actory;version="[2.5,3)";resolution:=optional,org.w3c.dom
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+Specification-Title: Apache FtpServer Core
+Specification-Vendor: The Apache Software Foundation
+Specification-Version: 1.1.1
+Tool: Bnd-2.3.0.201405100607

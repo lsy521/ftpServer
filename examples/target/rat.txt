@@ -1,0 +1,42 @@
+
+*****************************************************
+Summary
+-------
+Generated at: 2017-10-10T13:59:21+08:00
+
+Notes: 0
+Binaries: 1
+Archives: 0
+Standards: 15
+
+Apache Licensed: 15
+Generated Documents: 0
+
+JavaDocs are generated, thus a license header is optional.
+Generated files do not require license headers.
+
+0 Unknown Licenses
+
+*****************************************************
+  Files with Apache License headers will be marked AL
+  Binary files (which do not require any license headers) will be marked B
+  Compressed archives will be marked A
+  Notices, licenses etc. will be marked N
+  AL    E:/ftpServer/examples/ftpserver-example-spring-war/pom.xml
+  AL    E:/ftpServer/examples/ftpserver-example-spring-war/src/main/java/org/apache/ftpserver/example/springwar/FtpServerListener.java
+  AL    E:/ftpServer/examples/ftpserver-example-spring-war/src/main/java/org/apache/ftpserver/example/springwar/FtpServerServlet.java
+  B     E:/ftpServer/examples/ftpserver-example-spring-war/src/main/resources/ftpserver.jks
+  AL    E:/ftpServer/examples/ftpserver-example-spring-war/src/main/resources/log4j.properties
+  AL    E:/ftpServer/examples/ftpserver-example-spring-war/src/main/resources/users.properties
+  AL    E:/ftpServer/examples/ftpserver-example-spring-war/src/main/webapp/WEB-INF/applicationContext.xml
+  AL    E:/ftpServer/examples/ftpserver-example-spring-war/src/main/webapp/WEB-INF/web.xml
+  AL    E:/ftpServer/examples/ftpserver-osgi-ftplet-service/pom.xml
+  AL    E:/ftpServer/examples/ftpserver-osgi-ftplet-service/src/main/java/org/apache/ftpserver/example/ftpletservice/impl/Activator.java
+  AL    E:/ftpServer/examples/ftpserver-osgi-ftplet-service/src/main/java/org/apache/ftpserver/example/ftpletservice/MyFtplet.java
+  AL    E:/ftpServer/examples/ftpserver-osgi-spring-service/pom.xml
+  AL    E:/ftpServer/examples/ftpserver-osgi-spring-service/src/main/java/org/apache/ftpserver/example/osgiservice/impl/FtpServerLifecycle.java
+  AL    E:/ftpServer/examples/ftpserver-osgi-spring-service/src/main/resources/META-INF/spring/bundle-context.xml
+  AL    E:/ftpServer/examples/ftpserver-osgi-spring-service/src/main/resources/org/apache/ftpserver/example/osgiservice/users.properties
+  AL    E:/ftpServer/examples/pom.xml
+ 
+*****************************************************

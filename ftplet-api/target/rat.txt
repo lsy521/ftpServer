@@ -1,0 +1,57 @@
+
+*****************************************************
+Summary
+-------
+Generated at: 2017-10-10T13:58:51+08:00
+
+Notes: 0
+Binaries: 0
+Archives: 0
+Standards: 31
+
+Apache Licensed: 31
+Generated Documents: 0
+
+JavaDocs are generated, thus a license header is optional.
+Generated files do not require license headers.
+
+0 Unknown Licenses
+
+*****************************************************
+  Files with Apache License headers will be marked AL
+  Binary files (which do not require any license headers) will be marked B
+  Compressed archives will be marked A
+  Notices, licenses etc. will be marked N
+  AL    E:/ftpServer/ftplet-api/pom.xml
+  AL    E:/ftpServer/ftplet-api/src/main/java/org/apache/ftpserver/ftplet/Authentication.java
+  AL    E:/ftpServer/ftplet-api/src/main/java/org/apache/ftpserver/ftplet/AuthenticationFailedException.java
+  AL    E:/ftpServer/ftplet-api/src/main/java/org/apache/ftpserver/ftplet/Authority.java
+  AL    E:/ftpServer/ftplet-api/src/main/java/org/apache/ftpserver/ftplet/AuthorizationRequest.java
+  AL    E:/ftpServer/ftplet-api/src/main/java/org/apache/ftpserver/ftplet/DataConnection.java
+  AL    E:/ftpServer/ftplet-api/src/main/java/org/apache/ftpserver/ftplet/DataConnectionFactory.java
+  AL    E:/ftpServer/ftplet-api/src/main/java/org/apache/ftpserver/ftplet/DataTransferFtpReply.java
+  AL    E:/ftpServer/ftplet-api/src/main/java/org/apache/ftpserver/ftplet/DataType.java
+  AL    E:/ftpServer/ftplet-api/src/main/java/org/apache/ftpserver/ftplet/DefaultFtplet.java
+  AL    E:/ftpServer/ftplet-api/src/main/java/org/apache/ftpserver/ftplet/DefaultFtpReply.java
+  AL    E:/ftpServer/ftplet-api/src/main/java/org/apache/ftpserver/ftplet/FileActionFtpReply.java
+  AL    E:/ftpServer/ftplet-api/src/main/java/org/apache/ftpserver/ftplet/FileSystemFactory.java
+  AL    E:/ftpServer/ftplet-api/src/main/java/org/apache/ftpserver/ftplet/FileSystemView.java
+  AL    E:/ftpServer/ftplet-api/src/main/java/org/apache/ftpserver/ftplet/FtpException.java
+  AL    E:/ftpServer/ftplet-api/src/main/java/org/apache/ftpserver/ftplet/FtpFile.java
+  AL    E:/ftpServer/ftplet-api/src/main/java/org/apache/ftpserver/ftplet/Ftplet.java
+  AL    E:/ftpServer/ftplet-api/src/main/java/org/apache/ftpserver/ftplet/FtpletContext.java
+  AL    E:/ftpServer/ftplet-api/src/main/java/org/apache/ftpserver/ftplet/FtpletResult.java
+  AL    E:/ftpServer/ftplet-api/src/main/java/org/apache/ftpserver/ftplet/FtpReply.java
+  AL    E:/ftpServer/ftplet-api/src/main/java/org/apache/ftpserver/ftplet/FtpRequest.java
+  AL    E:/ftpServer/ftplet-api/src/main/java/org/apache/ftpserver/ftplet/FtpSession.java
+  AL    E:/ftpServer/ftplet-api/src/main/java/org/apache/ftpserver/ftplet/FtpStatistics.java
+  AL    E:/ftpServer/ftplet-api/src/main/java/org/apache/ftpserver/ftplet/RenameFtpReply.java
+  AL    E:/ftpServer/ftplet-api/src/main/java/org/apache/ftpserver/ftplet/Structure.java
+  AL    E:/ftpServer/ftplet-api/src/main/java/org/apache/ftpserver/ftplet/User.java
+  AL    E:/ftpServer/ftplet-api/src/main/java/org/apache/ftpserver/ftplet/UserManager.java
+  AL    E:/ftpServer/ftplet-api/src/test/java/org/apache/ftpserver/ftplet/DataTypeTest.java
+  AL    E:/ftpServer/ftplet-api/src/test/java/org/apache/ftpserver/ftplet/DefaultFtpReplyTest.java
+  AL    E:/ftpServer/ftplet-api/src/test/java/org/apache/ftpserver/ftplet/ExampleFtplet.java
+  AL    E:/ftpServer/ftplet-api/src/test/java/org/apache/ftpserver/ftplet/StructureTest.java
+ 
+*****************************************************

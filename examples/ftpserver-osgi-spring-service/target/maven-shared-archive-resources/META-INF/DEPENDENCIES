@@ -1,0 +1,25 @@
+// ------------------------------------------------------------------
+// Transitive dependencies of this project determined from the
+// maven pom organized by organization.
+// ------------------------------------------------------------------
+
+FtpServer OSGi Spring-DM example
+
+
+From: 'Apache MINA Project' (http://mina.apache.org/)
+  - Apache MINA Core (http://mina.apache.org/mina-core/) org.apache.mina:mina-core:bundle:2.0.16
+    License: Apache 2.0 License  (http://www.apache.org/licenses/LICENSE-2.0)
+
+From: 'QOS.ch' (http://www.qos.ch)
+  - SLF4J API Module (http://www.slf4j.org) org.slf4j:slf4j-api:jar:1.7.21
+    License: MIT License  (http://www.opensource.org/licenses/mit-license.php)
+
+From: 'The Apache Software Foundation' (https://www.apache.org/)
+  - Apache Ftplet API (http://mina.apache.org/ftpserver) org.apache.ftpserver:ftplet-api:bundle:1.1.1
+    License: Apache 2.0 License  (http://www.apache.org/licenses/LICENSE-2.0)
+  - Apache FtpServer Core (http://mina.apache.org/ftpserver/ftpserver-core) org.apache.ftpserver:ftpserver-core:bundle:1.1.1
+    License: Apache 2.0 License  (http://www.apache.org/licenses/LICENSE-2.0)
+
+
+
+
